@@ -26,6 +26,8 @@ Las variables son:
 
  ## Demo
 
+https://github.com/Gabriel151188/EntregaFinalReactjs/assets/101227210/6f7c04d7-d138-479f-835d-27c6f6d67937
+
 
  
 ## Componentes
