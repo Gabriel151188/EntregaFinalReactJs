@@ -6,6 +6,7 @@ import casa from "../assets/img/casa.png";
 
 
 
+
 const NavBar = () =>{
   return(
     <div >
@@ -16,31 +17,24 @@ const NavBar = () =>{
               <Link to="/">
               <img src={casa} style={{ width: '30%', height: 'auto' }}/>
               </Link>
-            </h1>
-          
-          
-       
+            </h1>      
 
-          {/* {Links} */}
           <ul className="navbar-nav ">
               <li className="nav-item">
-                <NavLink to="/category/sinalcohol" className="nav-link active">Sin Alcohol</NavLink>
+                <NavLink to="/category/sin alcohol" className="nav-link active">Sin Alcohol</NavLink>
               </li>
               <li className="nav-item">
                 <NavLink to="/category/aperitivos" className="nav-link active" >Aperitivos</NavLink>
               </li>
               <li className="nav-item">
-                 <NavLink to="/category/wines" className="nav-link active">Vinoteca</NavLink>
+                 <NavLink to="/category/vinoteca" className="nav-link active">Vinoteca</NavLink>
               </li>
-          </ul>
-
-              {/* {CartWidget} */}
-              <CartWidget />
+          </ul>           
               
           </div>
       </nav>
-      
 
+      <CartWidget />
 
       </div>
   );
